@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="it.univaq.jtl.feature"
+      label="JTL - Janus Transformation Language"
+      version="0.2.0.qualifier"
+      provider-name="JTL"
+      plugin="JTL"
+      os="linux,macosx,win32"
+      ws="cocoa,gtk,win32">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.change"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.debug.core"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.emf"/>
+      <import plugin="org.eclipse.emf.codegen.ecore"/>
+      <import plugin="org.eclipse.emf.ecore.edit"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.emf.workspace"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.m2m.atl.engine.emfvm"/>
+      <import plugin="org.eclipse.m2m.atl.engine"/>
+      <import plugin="org.eclipse.m2m.atl.dsls"/>
+      <import plugin="org.eclipse.emf.common"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.m2m.atl.core"/>
+      <import plugin="JTL.atl" version="0.1.0" match="greaterOrEqual"/>
+      <import plugin="ASPMM.resource.aspmm" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="ASPM.resource.aspm" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="ASP.resource.asp" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="JTL.resource.jtl" version="1.0.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="ASP.resource.asp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ASP.resource.asp.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ASPM.resource.aspm"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ASPM.resource.aspm.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ASPMM.resource.aspmm"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ASPMM.resource.aspmm.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.atl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.emftext.ASP"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.emftext.ASPM"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.emftext.ASPMM"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.emftext.JTL"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.resource.jtl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.resource.jtl.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.emftext.commons.antlr3_4_0"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="JTL.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
