@@ -56,7 +56,7 @@
    </configurations>
 
    <repositories>
-      <repository location="file:/home/moebius/Documents/Università/JTL/workspace/JTL.updatesite/target/repository" enabled="true" />
+      <repository location="https://github.com/mtucci/jtl-eclipse-update-site/raw/master/" enabled="true" />
    </repositories>
 
    <preferencesInfo>
