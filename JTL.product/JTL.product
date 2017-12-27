@@ -23,17 +23,15 @@
    <windowImages i16="eclipse16.png" i32="eclipse32.png" i48="eclipse48.png"/>
 
    <splash
-      location="JTL"
+      location="JTL.eclipse"
       startupProgressRect="2,290,448,10"
       startupMessageRect="7,265,320,20"
       startupForegroundColor="FFFFFF" />
    <launcher name="JTL">
-      <solaris/>
       <win useIco="false">
          <bmp/>
       </win>
    </launcher>
-
 
    <vm>
       <linux include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8</linux>
@@ -43,8 +41,34 @@
    </plugins>
 
    <features>
-      <feature id="org.eclipse.platform" version="4.6.2.v20161124-1529"/>
       <feature id="it.univaq.jtl.feature" version="0.2.0.qualifier" installMode="root"/>
+      <feature id="org.eclipse.platform"/>
+      <feature id="org.eclipse.rcp"/>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="org.eclipse.emf.ecore.editor"/>
+      <feature id="org.eclipse.emf.ecore"/>
+      <feature id="org.eclipse.equinox.p2.user.ui"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.feature"/>
+      <feature id="org.eclipse.help"/>
+      <feature id="org.eclipse.ecf.filetransfer.httpclient4.ssl.feature"/>
+      <feature id="org.eclipse.equinox.p2.extras.feature"/>
+      <feature id="org.eclipse.emf.common"/>
+      <feature id="org.eclipse.equinox.p2.core.feature"/>
+      <feature id="org.eclipse.ecf.core.feature"/>
+      <feature id="org.eclipse.equinox.p2.rcp.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.feature"/>
+      <feature id="org.eclipse.ecf.core.ssl.feature"/>
+      <feature id="org.eclipse.ecf.filetransfer.ssl.feature"/>
+      <feature id="org.emftext.access"/>
+      <feature id="org.eclipse.emf"/>
+      <feature id="org.eclipse.emf.ecore.edit"/>
+      <feature id="org.eclipse.emf.workspace"/>
+      <feature id="org.eclipse.emf.codegen.ecore"/>
+      <feature id="org.eclipse.emf.transaction"/>
+      <feature id="org.eclipse.jdt"/>
+      <feature id="org.eclipse.emf.validation"/>
+      <feature id="org.eclipse.m2m.atl"/>
+      <feature id="org.eclipse.e4.core.tools.feature"/>
    </features>
 
    <configurations>
@@ -56,7 +80,7 @@
    </configurations>
 
    <repositories>
-      <repository location="https://github.com/mtucci/jtl-eclipse-update-site/raw/master/" enabled="true" />
+      <repository location="http://https://github.com/MDEGroup/jtl-eclipse-update-site/raw/master/" enabled="true" />
    </repositories>
 
    <preferencesInfo>
