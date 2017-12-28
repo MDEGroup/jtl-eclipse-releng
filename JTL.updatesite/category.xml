@@ -3,7 +3,7 @@
    <description name="JTL - Janus Transformation Language">
       JTL - Janus Transformation Language
    </description>
-   <feature url="features/it.univaq.jtl.feature_0.2.0.qualifier.jar" id="it.univaq.jtl.feature" version="0.2.0.qualifier" os="linux,macosx,win32" ws="cocoa,gtk,win32">
+   <feature url="features/it.univaq.jtl.feature_0.3.0.qualifier.jar" id="it.univaq.jtl.feature" version="0.3.0.qualifier" os="linux,macosx,win32" ws="cocoa,gtk,win32">
       <category name="it.univaq.jtl.software"/>
    </feature>
    <category-def name="it.univaq.jtl.software" label="JTL - Janus Transformation Language"/>

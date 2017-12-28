@@ -2,7 +2,7 @@
 <feature
       id="it.univaq.jtl.feature"
       label="JTL - Janus Transformation Language"
-      version="0.2.0.qualifier"
+      version="0.3.0.qualifier"
       provider-name="JTL"
       plugin="JTL"
       os="linux,macosx,win32"
@@ -110,13 +110,6 @@
          unpack="false"/>
 
    <plugin
-         id="JTL.emftext.ASPM"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="JTL.emftext.ASPMM"
          download-size="0"
          install-size="0"
@@ -159,6 +152,13 @@
 
    <plugin
          id="JTL.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.emftext.ASPM"
          download-size="0"
          install-size="0"
          version="0.0.0"

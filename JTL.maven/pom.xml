@@ -27,6 +27,18 @@
   </repositories>
   
   <modules>
+  	<module>../../jtl-eclipse/JTL.emftext.ASP</module>
+  	<module>../../jtl-eclipse/ASP.resource.asp</module>
+  	<module>../../jtl-eclipse/ASP.resource.asp.ui</module>
+  	<module>../../jtl-eclipse/JTL.emftext.ASPM</module>
+  	<module>../../jtl-eclipse/ASPM.resource.aspm</module>
+  	<module>../../jtl-eclipse/ASPM.resource.aspm.ui</module>
+  	<module>../../jtl-eclipse/JTL.emftext.ASPMM</module>
+  	<module>../../jtl-eclipse/ASPMM.resource.aspmm</module>
+  	<module>../../jtl-eclipse/ASPMM.resource.aspmm.ui</module>
+  	<module>../../jtl-eclipse/JTL.emftext.JTL</module>
+  	<module>../../jtl-eclipse/JTL.resource.jtl</module>
+  	<module>../../jtl-eclipse/JTL.resource.jtl.ui</module>
   	<module>../../jtl-eclipse/JTL.atl</module>
   	<module>../../jtl-eclipse/JTL</module>
   	<module>../../jtl-eclipse/JTL.eclipse</module>
@@ -43,6 +55,31 @@
         <artifactId>tycho-maven-plugin</artifactId>
         <version>${tycho.version}</version>
         <extensions>true</extensions>
+      </plugin>
+      
+      <plugin>
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>target-platform-configuration</artifactId>
+        <version>${tycho.version}</version>
+        <configuration>
+          <environments>
+            <environment>
+              <os>win32</os>
+              <ws>win32</ws>
+              <arch>x86</arch>
+            </environment>
+            <environment>
+              <os>linux</os>
+              <ws>gtk</ws>
+              <arch>x86_64</arch>
+            </environment>
+            <environment>
+              <os>macosx</os>
+              <ws>cocoa</ws>
+              <arch>x86_64</arch>
+            </environment>
+          </environments>
+        </configuration>
       </plugin>
     </plugins>
   </build>

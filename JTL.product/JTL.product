@@ -41,7 +41,7 @@
    </plugins>
 
    <features>
-      <feature id="it.univaq.jtl.feature" version="0.2.0.qualifier" installMode="root"/>
+      <feature id="it.univaq.jtl.feature" version="0.3.0.qualifier" installMode="root"/>
       <feature id="org.eclipse.platform"/>
       <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.e4.rcp"/>
@@ -80,7 +80,7 @@
    </configurations>
 
    <repositories>
-      <repository location="http://https://github.com/MDEGroup/jtl-eclipse-update-site/raw/master/" enabled="true" />
+      <repository location="https://github.com/MDEGroup/jtl-eclipse-update-site/raw/master/" enabled="true" />
    </repositories>
 
    <preferencesInfo>
