@@ -51,6 +51,7 @@
       <import plugin="ASPM.resource.aspm" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="ASP.resource.asp" version="1.0.0" match="greaterOrEqual"/>
       <import plugin="JTL.resource.jtl" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="ASPT.resource.aspt"/>
    </requires>
 
    <plugin
@@ -159,6 +160,27 @@
 
    <plugin
          id="JTL.emftext.ASPM"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ASPT.resource.aspt"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="ASPT.resource.aspt.ui"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="JTL.emftext.ASPT"
          download-size="0"
          install-size="0"
          version="0.0.0"

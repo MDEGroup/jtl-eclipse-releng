@@ -36,6 +36,9 @@
   	<module>../../jtl-eclipse/JTL.emftext.ASPMM</module>
   	<module>../../jtl-eclipse/ASPMM.resource.aspmm</module>
   	<module>../../jtl-eclipse/ASPMM.resource.aspmm.ui</module>
+  	<module>../../jtl-eclipse/JTL.emftext.ASPT</module>
+  	<module>../../jtl-eclipse/ASPT.resource.aspt</module>
+  	<module>../../jtl-eclipse/ASPT.resource.aspt.ui</module>
   	<module>../../jtl-eclipse/JTL.emftext.JTL</module>
   	<module>../../jtl-eclipse/JTL.resource.jtl</module>
   	<module>../../jtl-eclipse/JTL.resource.jtl.ui</module>
