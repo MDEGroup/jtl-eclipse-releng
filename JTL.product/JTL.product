@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="JTL" uid="it.univaq.jtl.product" id="org.eclipse.platform.ide" application="org.eclipse.ui.ide.workbench" version="0.2.0.qualifier" useFeatures="true" includeLaunchers="true">
+<product name="JTL" uid="it.univaq.jtl.product" id="org.eclipse.platform.ide" application="org.eclipse.ui.ide.workbench" version="0.2.1.qualifier" useFeatures="true" includeLaunchers="true">
 
    <aboutInfo>
       <image path="eclipse_lg.png"/>
@@ -41,7 +41,7 @@
    </plugins>
 
    <features>
-      <feature id="it.univaq.jtl.feature" version="0.3.0.qualifier" installMode="root"/>
+      <feature id="it.univaq.jtl.feature" version="0.2.1.qualifier" installMode="root"/>
       <feature id="org.eclipse.platform"/>
       <feature id="org.eclipse.rcp"/>
       <feature id="org.eclipse.e4.rcp"/>
