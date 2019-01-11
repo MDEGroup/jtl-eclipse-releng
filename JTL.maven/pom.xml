@@ -24,9 +24,17 @@
       <layout>p2</layout>
       <url>http://update.emftext.org/release/</url>
     </repository>
+    <!--  Local p2-maven-plugin -->
+    <repository>
+      <id>Local p2-maven-plugin</id>
+      <layout>p2</layout>
+      <url>http://localhost:8080/site</url>
+    </repository>
   </repositories>
   
   <modules>
+  	<module>../../jtl-eclipse/jaspwrapper</module>
+  	<module>../../jtl-eclipse/org.emftext.commons.antlr3_4_0</module>
   	<module>../../jtl-eclipse/JTL.emftext.ASP</module>
   	<module>../../jtl-eclipse/ASP.resource.asp</module>
   	<module>../../jtl-eclipse/ASP.resource.asp.ui</module>
@@ -52,6 +60,7 @@
   
     <build>
     <plugins>
+    
       <plugin>
         <!-- enable tycho build extension -->
         <groupId>org.eclipse.tycho</groupId>
@@ -84,6 +93,21 @@
           </environments>
         </configuration>
       </plugin>
+      
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>jtl.launcher.Launcher</mainClass>
+            </manifest>
+          </archive>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
+        </configuration>
+      </plugin>
+      
     </plugins>
   </build>
   
